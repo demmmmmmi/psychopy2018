@@ -1,0 +1,25 @@
+x = "There are %d types of people." % 10  #設定X為何，此處X為字串，%會被d所輸入的值替代，d為整數
+binary = "binary"                         #設定binary為字串
+do_not = "don't"                          #設定do_not為字串
+y = "Those who know %s and those who %s." % (binary, do_not)  #設定y為字串，%會被輸入的S為字串所替代
+
+print x                                   #印出X
+print y                                   #印出y
+
+print "I said: %r." % x                   #印出I said +X，並檢查X中的%d是否有bug %r會debug
+print "I also said: '%s'." % y            #印出 I also said: +y
+
+hilarious = False                         #給hilarious布林值
+joke_evaluation = "Isn't that joke so funny?! %r" #設定joke_evaluation為字串
+
+print joke_evaluation % hilarious         #I don't know how I can explain it.(%)
+
+w = "This is the left side of..."         #設定W的字串
+e = "a string with a right side."         #設定e的字串
+
+print w + e                               #印出w+e
+
+# 1. Go through this program and write a comment above each line explaining it.
+# 2. Find all the places where a string is put inside a string. There are four places.   4.9.10.15
+# 3. Are you sure there are only four places? How do you know? Maybe I like lying.  I'm not sure if it is correct.      
+# 4. Explain why adding the two strings w and e with + makes a longer string.      因為w跟e都是字串所以可以用+，如果不同屬性可能會出現錯誤
