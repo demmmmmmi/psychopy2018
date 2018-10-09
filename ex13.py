@@ -13,7 +13,7 @@ Traceback (most recent call last):
   File "ex13.py", line 3, in <module>
     script, first, second, third = argv
 ValueError: need more than 3 values to unpack
---輸入的字串數量必須大於3個才能使用這個package
+#輸入的字串數量必須大於3個才能使用這個package
 
 #2.
 ##more
