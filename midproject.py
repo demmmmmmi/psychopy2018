@@ -4,7 +4,7 @@
 import pygame
 from pygame.locals import *
 import random
-import psychopy
+import psychopy from visual, event
 
 ### parameters ###
 screen_size = (800,600)
